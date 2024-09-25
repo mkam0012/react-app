@@ -1,17 +1,20 @@
 import React from 'react';
+import { Route, Routes, Link } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+import Services from './Services';
+import Contact from './Contact';
+import Header from './Header';
+import Footer from './Footer';
+import '../App.css';
 
-const Services = () => {
+function App() {
     return (
         <div>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Smart Lighting</li>
-                <li>Security Systems</li>
-                <li>Climate Control</li>
-            </ul>
+            <h2>Services</h2>
+            <p>HomeAwake services coming soon!.</p>
         </div>
     );
-};
+}
 
-export default Services;
-
+export default App;
